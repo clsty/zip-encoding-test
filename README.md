@@ -19,7 +19,7 @@ Take `cp932.test1.zip` as example:
 ```
 7z a -tzip -mcp=932 cp932.test1.zip t氏の話を信じるな.txt
 ```
-(For Windows you may need to use something like `"C:\Program Files (x86)\7-Zip\7z.exe"` instead of `7z`).
+For Windows you may need to use something like `"C:\Program Files (x86)\7-Zip\7z.exe"` instead of `7z`.
 
 Note: [since version 21.02](https://www.7-zip.org/history.txt), 7-zip writes additional field for filename in UTF-8 encoding to zip archives.
-Also, other archive utils based on 7-zip maybe have changed this behavior simultaneously.
+Other archive utils based on 7-zip maybe also have changed this behavior simultaneously.
