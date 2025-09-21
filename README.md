@@ -8,6 +8,8 @@ Contains example zip archive files, for people to test filename encoding support
 - `cp932.test1.zip`: containing an empty file `t氏の話を信じるな.txt`. Will be displayed as `t巵偺榖傪怣偠傞側.txt` when encoding errors (forcing UTF-8).
 - `cp932.test2.zip`: containing an empty file `の.txt`. Will be displayed as `偺.txt` when encoding errors (forcing UTF-8).
 
+P.S. My system local encoding is in `cp936`, I guess that's why the `cp936` archives seems normal when forcing UTF-8.
+
 ## How to create an example zip archive
 
 Take `cp932.test1.zip` as example:
