@@ -13,11 +13,11 @@ All archives contain the same 4 empty files inside `src/`:
 
 ## Archives
 
-### Created with old 7-zip (p7zip 17.05)
+### Created with old 7-zip (19.00)
 
 | Archive | Encoding | Notes |
 |---|---|---|
-| `old7z_utf8.zip` | UTF-8 | Default for p7zip |
+| `old7z_utf8.zip` | UTF-8 | Default for older 7-zip |
 | `old7z_cp932.zip` | CP932 (Shift-JIS) | Japanese codepage |
 | `old7z_cp936.zip` | CP936 (GBK) | Chinese Simplified codepage |
 | `old7z_iso8859-1.zip` | ISO 8859-1 | Western European |
@@ -33,7 +33,7 @@ All archives contain the same 4 empty files inside `src/`:
 
 ## How to create
 
-### Old 7-zip (p7zip 17.05)
+### Old 7-zip (19.00)
 
 ```bash
 # UTF-8 (default)
@@ -65,4 +65,4 @@ All archives contain the same 4 empty files inside `src/`:
 7z a -tzip -mcp=28591 archive.zip src/*.txt
 ```
 
-Note: [Since version 21.02](https://www.7-zip.org/history.txt), 7-zip writes additional OS/Unicode filename field in UTF-8 encoding to zip archives by default. Older versions (like p7zip 17.05) do not.
+Note: [Since version 21.02](https://www.7-zip.org/history.txt), 7-zip writes additional OS/Unicode filename field in UTF-8 encoding to zip archives by default. Older versions do not.
