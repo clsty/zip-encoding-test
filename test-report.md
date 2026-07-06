@@ -119,4 +119,4 @@ However, **UnZip 6.00 shows `????` for all non-ASCII filenames during listing wh
 
 **Recommendation**:
 - Archiving: For maximum compatibility, always set the UTF-8 flag when creating ZIP archives. Both the latest `7-zip` and `p7zip` do this by default.
-- Extracting: When dealing with legacy ZIP archives without the UTF-8 flag, p7zip 17.05 tends to have more robust heuristic-based encoding detection compared to both modern 7-Zip and UnZip 6.00. However, p7zip has seen little development after 17.05, and 7-zip are generally a better option considering many other aspects on Linux.
+- Extracting: When dealing with legacy ZIP archives without the UTF-8 flag, p7zip 17.05 tends to have more robust heuristic-based encoding detection compared to both modern 7-Zip and UnZip 6.00. However, p7zip has seen little development after 17.05, and 7-zip is generally a better option considering many other aspects on Linux.
